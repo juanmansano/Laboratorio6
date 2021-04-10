@@ -1,0 +1,12 @@
+# ninja log v5
+0	278	6397038744936557	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Obj/startup_TM4C1294.o	7b579b3223fc19fc
+13	655	6397038748264513	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Obj/RTX_Config.o	f862db4aca4d14b3
+284	893	6397038750854313	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Obj/driverleds.o	5e8b3369993d3616
+673	1062	6397038752612092	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Obj/system_TM4C1294_TW.o	7f7418f44b880eb
+912	1187	6397038753861603	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Obj/sinalizador.o	a5b833135b882682
+1081	1392	6397038755889399	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Obj/rtx_lib.o	dd6472d30bf42cde
+1411	1868	6397038760695360	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Exe/sinalizador.out	5c8e5fba77c56532
+1892	2054	6397038762719786	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Exe/sinalizador.bin	a85dc2f48cf91a0a
+2	208	6397040003357521	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Obj/sinalizador.o	a5b833135b882682
+229	483	6397040006035844	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Exe/sinalizador.out	5c8e5fba77c56532
+501	532	6397040006715428	E:/Universidade/2020_2/Sistemas Embarcados/Laboratorio6/Projects/sinalizador/ewarm/Exe/sinalizador.bin	a85dc2f48cf91a0a

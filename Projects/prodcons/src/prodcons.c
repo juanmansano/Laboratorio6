@@ -13,9 +13,8 @@ void produtor(void *arg){
     
     osMessageQueuePut(filaMensagem_id, &count, 0, 0);
     
-    count++;
-    count &= 0x0F; // produz nova informação
-    osDelay(500);
+    count ^= LED1;
+    osDelay(10);
   } // while
 } // produtor
 
@@ -26,14 +25,14 @@ void consumidor(void *arg){
     
     osMessageQueueGet(filaMensagem_id, &state, NULL, 0);
     
-    LEDWrite(LED4 | LED3 | LED2 | LED1, state); // apresenta informação consumida
-    osDelay(500);
+    LEDWrite(LED1, state); // apresenta informação consumida
+    osDelay(10);
   } // while
 } // consumidor
 
 void main(void){
   SystemInit();
-  LEDInit(LED4 | LED3 | LED2 | LED1);
+  LEDInit(LED1);
 
   osKernelInitialize();
 

@@ -9,7 +9,7 @@ void AcionaLED(void *arg){
   uint8_t state = 0;
   
   while(1){
-    osThreadFlagsWait(0x0001, osFlagsWaitAny, osWaitForever);
+    osThreadFlagsWait(0x0001, osFlagsWaitAny | osFlagsNoClear, osWaitForever);
     
     state ^= led;
     LEDWrite(led, state);
